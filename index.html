@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              aref: ["Aref Ruqaa"],
+            },
+            colors: {
+              primary: "#C88C45",
+              secondary: "#5C4242",
+              grey: "#d9d9d9",
+              black: "#000",
+              mocca: "#FEF6F0",
+            },
+            spacing: {
+              584: "596px",
+            },
+            height: {
+              80: "80px",
+            },
+            width: {
+              80: "80px",
+              446: "503px",
+              180: "125px",
+              571: "571px",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      /* CSS untuk mengontrol overflow horizontal */
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body class="font-aref">
+    <div>
+      <img src="images/background.png" class="absolute min-w-full" />
+      <div class="flex flex-row relative">
+        <img
+          src="images/lentera1.png"
+          class="lg:h-36 absolute lg:ml-12 h-11 ml-3"
+        />
+        <img
+          src="images/lentera1.png"
+          class="lg:h-36 absolute lg:ml-36 h-11 ml-11"
+        />
+        <!-- <img src="images/lentera1.png" class="h-36 absolute ml-36" /> -->
+      </div>
+      <img
+        src="images/ramadhankareem.png"
+        class="absolute lg:mt-44 lg:ml-16 lg:h-16 h-4 mt-12 ml-3"
+      />
+    </div>
+    <!-- <div class="mx"> -->
+    <section class="lg:mt-584 mt-40">
+      <h1 class="text-primary font-bold lg:text-3xl text-center">
+        Sambut bulan ramadhan dengan penuh kebaikan
+      </h1>
+      <div class="flex flex-row lg:mt-9 mt-4 justify-center">
+        <a href="#tadarus" class="flex justify-center mx-5">
+          <img
+            class="lg:h-16 h-10 w-10 lg:mt-2 mt-2.5 lg:w-16 absolute"
+            src="images/alquran.png"
+          />
+          <div class="mx-2.5 justify-center flex flex-col">
+            <!-- rectangle -->
+            <div
+              class="lg:w-80 justify-center items-center w-14 h-14 lg:h-80 m-auto flex transform rotate-45 flex-shrink-0 border rounded-2xl bg-primary bg-opacity-10 border-primary"
+            ></div>
+            <p class="mt-2.5 lg:text-xl text-center text-primary">
+              Baca Al Quran
+            </p>
+          </div>
+        </a>
+        <a href="#doa" class="flex justify-center mx-5">
+          <img
+            class="lg:h-16 h-10 w-10 lg:mt-2 mt-2.5 lg:w-16 absolute"
+            src="images/doa.svg"
+          />
+          <div class="mx-2.5 justify-center flex flex-col">
+            <!-- rectangle -->
+            <div
+              class="lg:w-80 justify-center items-center w-14 h-14 lg:h-80 m-auto flex transform rotate-45 flex-shrink-0 border rounded-2xl bg-primary bg-opacity-10 border-primary"
+            ></div>
+            <p class="mt-2.5 lg:text-xl text-center text-primary">Bacaan Doa</p>
+          </div>
+        </a>
+        <a href="#" class="flex justify-center mx-5">
+          <img
+            class="lg:h-16 h-10 w-10 lg:mt-2 mt-2.5 lg:w-16 absolute"
+            src="images/sholat.svg"
+          />
+          <div class="mx-2.5 justify-center flex flex-col">
+            <!-- rectangle -->
+            <div
+              class="lg:w-80 justify-center items-center w-14 h-14 lg:h-80 m-auto flex transform rotate-45 flex-shrink-0 border rounded-2xl bg-primary bg-opacity-10 border-primary"
+            ></div>
+            <p class="mt-2.5 lg:text-xl text-center text-primary">
+              Bacaan Sholat
+            </p>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section
+      id="doa"
+      class="lg:flex min-h-screen lg:mt-20 lg:flex-col mt-10 items-center"
+    >
+      <h1 class="text-center text-2xl text-primary">Bacaan Doa</h1>
+      <div class="lg:flex lg:flex-row">
+        <img src="images/imagedoa.svg" />
+        <div class="overflow-x-scroll lg:mt-5 mt-5 lg:mx-0 mx-2">
+          <div class="flex lg:flex-row flex-col items-center">
+            <div
+              class="border-primary mx-2 border-4 snap-center items-center rounded-3xl p-2"
+            >
+              <h2 class="text-primary text-xl">Doa Niat Puasa</h2>
+              <h2 class="text-end text-lg mt-3">
+                نَوَيْتُ صَوْمَ غَدٍ عَنْ أَدَاءِ فَرْضِ شَهْرِ رَمَضَانِ هذِهِ
+                السَّنَةِ لِلهِ تَعَالَى
+              </h2>
+              <h2 class="mt-3">
+                Nawaitu shauma ghadin 'an adâ'i fardhi syahri Ramadhâni hâdzihis
+                sanati lillâhi ta'âla.
+              </h2>
+              <h2 class="mt-3">
+                "Aku berniat puasa esok hari untuk menunaikan fardhu di bulan
+                Ramadhan tahun ini, karena Allah ta'ala."
+              </h2>
+            </div>
+            <div
+              class="border-primary mx-2 border-4 snap-center items-center rounded-3xl lg:mt-0 mt-3 p-2"
+            >
+              <h2 class="text-primary text-xl">Doa Berbuka Puasa</h2>
+              <h2 class="text-end text-lg mt-3">
+                اَللّٰهُمَّ لَكَ صُمْتُ وَبِكَ آمَنْتُ وَعَلَى رِزْقِكَ
+                أَفْطَرْتُ بِرَحْمَتِكَ يَا اَرْحَمَ الرَّحِمِيْنَ
+              </h2>
+              <h2 class="mt-3 container-text">
+                Allaahumma lakasumtu wabika aamantu wa'alaa rizqika afthortu
+                birahmatika yaa arhamar-roohimiina
+              </h2>
+              <h2 class="mt-3 container-text">
+                "Ya Allah karenaMu aku berpuasa, denganMu aku beriman, kepadaMu
+                aku berserah dan dengan rezekiMu aku berbuka (puasa), dengan
+                rahmatMu, Ya Allah yang Tuhan Maha Pengasih."
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
